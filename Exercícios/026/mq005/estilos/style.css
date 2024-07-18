@@ -10,6 +10,7 @@ body{
     background-color: gray;
 }
 
+
 header{
     background-color: grey;
     
@@ -20,7 +21,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -39,6 +40,20 @@ menu > ul > li >  a{
 
 menu > ul > li > a:hover{
     background-color: gray;
+}
+
+span#burguer{
+    background-color: rgb(36, 36, 36);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: white;
+    color: black;
 }
 
 main{
